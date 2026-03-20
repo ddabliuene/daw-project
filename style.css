@@ -82,8 +82,11 @@ nav a:hover {
     font-size: 70px;
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
+
+
 
 .container {
     display: grid;
@@ -93,32 +96,42 @@ nav a:hover {
 
 }
 
-.products {
+.product {
     display: gr;
     justify-items: center;
     text-align: center;
     border: #d6d6d6 solid 0.8px;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 70px;
+
 }
 
 
-.products img {
+.product img {
     width: 850px;
+    border-top-left-radius: 70px;    
+    border-top-right-radius: 70px;
 
 }
 
-.products h2 {
+.product h2 {
     color: rgb(0, 0, 0);
     margin-bottom: -20px;
 }
 
-.products p {
+.product p {
     color: rgb(117, 117, 117);
 }
 
+.product:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 10px 25px rgba(76, 76, 76, 0.2);
+}
+
 hr {
-    width: 90%;
+    width: 82%;
     height: 1px;
     background-color: black;
-    margin: 60px;
-    margin-top: 120px;
+    margin-top: 220px;
 }
+
