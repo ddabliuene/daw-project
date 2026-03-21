@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,27 +9,127 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title> BlackDragons </title>
-
+    <title>BlackDragons</title>
 </head>
 
 <body>
-    
-        <header>
-
-    <img src="images/logo.png" alt="Logo">
-
-    <nav>
-    
-    <a href="home.html">Home</a>
-    <a href="products.html">Produtos</a>
-    <a href="fale-conosco.html">Fale Conosco</a>
-    <a href="quem-somos.html">Quem Somos</a>
-
-    </nav>
-
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="product-cardss.html">Produtos</a>
+            <a href="fale-conosco.html">Fale Conosco</a>
+            <a href="quem-somos.html">Quem Somos</a>
+        </nav>
     </header>
 
-</body>
+    <div class="product-page-text">
+        <h1>Produtos</h1>
+        <p>Monte seu Setup Gamer</p>
+    </div>
 
+    <div class="data-filter">
+        <label for="filter">Filtrar por categoria:</label>
+        <select id="filter" name="filter">
+            <option value="all">Todos</option>
+            <option value="pc-gamer">Computadores</option>
+            <option value="teclados">Teclados</option>
+            <option value="headsets">Headsets</option>
+            <option value="mouses">Mouse</option>
+            <option value="mousepad">MousePad</option>
+        </select>
+    </div>
+
+    <div class="product-container">
+        <div class="product-cards" data-category="pc-gamer">
+            <img src="images/item1.png" alt="item1">
+            <h2>PC Gamer - Aegis</h2>
+            <p>R$ 4.500,00 no PIX ou <br>R$ 380,00 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="teclados">
+            <img src="images/item3.png" alt="item3">
+            <h2>Teclado - Titan Phantom</h2>
+            <p>R$ 350,00 no PIX ou <br>R$ 29,90 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="pc-gamer">
+            <img src="images/item2.png" alt="item2">
+            <h2>PC Gamer - BlueStorm</h2>
+            <p>R$ 9.800,00 no PIX ou <br>R$ 835,00 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="headsets">
+            <img src="images/item4.png" alt="item4">
+            <h2>Headset - Surround</h2>
+            <p>R$ 644,90 no PIX ou <br>R$ 55,00 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="teclados">
+            <img src="images/item5.png" alt="item5">
+            <h2>Teclado - Ghost</h2>
+            <p>R$ 389,90 no PIX ou <br>R$ 32,49 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="mouses">
+            <img src="images/item6.png" alt="item6">
+            <h2>Mouse - Viper Green</h2>
+            <p>R$ 219,90 no PIX ou <br>R$ 18,32 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="mousepad">
+            <img src="images/item7.png" alt="item7">
+            <h2>MousePad - Samurai Purple</h2>
+            <p>R$ 129,90 no PIX ou <br>R$ 10,82 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="pc-gamer">
+            <img src="images/item8.png" alt="item8">
+            <h2>PC Gamer - Red Blood RGB</h2>
+            <p>R$ 3.850,00 no PIX ou <br>R$ 320,83 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="teclados">
+            <img src="images/item9.png" alt="item9">
+            <h2>Teclado - Celestial</h2>
+            <p>R$ 549,90 no PIX ou <br>R$ 45,82 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="pc-gamer">
+            <img src="images/item10.png" alt="item10">
+            <h2>PC Gamer - Blizzard</h2>
+            <p>R$ 4.790,00 no PIX ou <br>R$ 399,16 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="mousepad">
+            <img src="images/item11.png" alt="item11">
+            <h2>MousePad - Fury Red</h2>
+            <p>R$ 189,90 no PIX ou <br>R$ 15,82 em 12x sem juros</p>
+        </div>
+
+        <div class="product-cards" data-category="mouses">
+            <img src="images/item12.png" alt="item12">
+            <h2>Mouse - Chroma Spectrum</h2>
+            <p>R$ 259,90 no PIX ou <br>R$ 21,65 em 12x sem juros</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="social-media">
+            <h3 class="social-text">Redes Sociais</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5511999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="logo-copyright">
+            <h3 class="copyright-name">BlackDragons</h3>
+            <p>2026 BlackDragons. Todos os direitos reservados.</p>
+            <img src="images/logo2.png" alt="Logo" class="footer-logo">
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
 </html>
